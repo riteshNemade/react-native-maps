@@ -370,6 +370,9 @@ export class MapMarker extends React.Component<MapMarkerProps> {
     this.setCoordinates = this.setCoordinates.bind(this);
     this.redrawCallout = this.redrawCallout.bind(this);
     this.animateMarkerToCoordinate = this.animateMarkerToCoordinate.bind(this);
+    this.getNativeComponent = this.getNativeComponent.bind(this); // Ensure the method is bound
+    this.getMapManagerCommand = this.getMapManagerCommand.bind(this); // Ensure the method is bound
+    this.getUIManagerCommand = this.getUIManagerCommand.bind(this); // Ensure the method is bound
   }
 
   setNativeProps(props: Partial<NativeProps>) {

@@ -1,9 +1,9 @@
 {
-  "name": "react-native-maps",
-  "description": "React Native Mapview component for iOS + Android",
+  "name": "@datafortune/react-native-maps",
+  "description": "Fork of React Native Maps to fix Map Marker issue",
   "source": "src/index",
   "main": "lib/index.js",
-  "author": "Leland Richardson <leland.m.richardson@gmail.com>",
+  "author": "Ritesh Nemade <ritesh.nemade@datafortune.com>",
   "homepage": "https://github.com/react-native-maps/react-native-maps#readme",
   "version": "0.0.0",
   "license": "MIT",
